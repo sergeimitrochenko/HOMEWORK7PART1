@@ -10,9 +10,21 @@ public class Main {
         for (
                 int i : weight) {
             if (i < weight.length)
-                System.out.print(i + ",");
+    System.out.print(i + ",");
             else {
-                System.out.print(i);
+System.out.print(i);
+            }
+        }
+        System.out.println("Задача № 2");
+
+        double[] arr = {1.57,7.654,9.986};
+        for (
+                int i = 0;
+                i < arr.length; i++) {
+            if (i < arr.length - 1)
+                System.out.print(arr[i] + ", ");
+            else {
+                System.out.print(arr[i]);
             }
         }
     }
