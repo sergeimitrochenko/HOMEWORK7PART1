@@ -19,6 +19,7 @@ public class Main {
             }
         }
         System.out.println();
+
         double[] arr = {1.57, 7.654, 9.986};
         for (
                 int i = 0;
