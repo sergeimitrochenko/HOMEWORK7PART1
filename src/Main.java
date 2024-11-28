@@ -1,11 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        String [] names={"0","1","2"};
+        String[] names = {"0", "1", "2"};
         System.out.println(names[0]);
         System.out.println("Hello world!");
 
-        System.out.println("Задача №1");
+        System.out.println("Задача №1 и Задача №2");
         int[] weight = new int[3];
         weight[0] = 1;
         weight[1] = 2;
@@ -18,7 +18,7 @@ public class Main {
                 System.out.print(i);
             }
         }
-        System.out.println("Задача № 2");
+        System.out.println();
         double[] arr = {1.57, 7.654, 9.986};
         for (
                 int i = 0;
@@ -29,7 +29,22 @@ public class Main {
                 System.out.print(arr[i]);
             }
         }
-        System.out.println("Задача № 3");
+        System.out.println();
+
+        int[] array1 = new int[3];
+        array1[0] = 5;
+        array1[1] = 17;
+        array1[2] = 350;
+        for (int i = 0; i < array1.length; i++) {
+            if (i < array1.length - 1)
+                System.out.print(array1[i] + ", ");
+            else {
+                System.out.print(array1[i]);
+            }
+        }
+        System.out.println();
+
+        System.out.println( "Задача № 3");
         for (int i = weight.length - 1; i >= 0; i--) {
             if (i != 0)
                 System.out.print(weight[i] + ", ");
@@ -38,7 +53,7 @@ public class Main {
             }
         }
 
-        System.out.println("Задача № 3");
+        System.out.println();
         for (int i = arr.length - 1; i >= 0; i--) {
             if (i != 0)
                 System.out.print(arr[i] + ", ");
@@ -46,7 +61,9 @@ public class Main {
                 System.out.print(arr[i]);
             }
         }
-        System.out.println("Задача № 4");
+        System.out.println();
+
+        System.out.println( "Задача № 4");
         weight = new int[3];
         weight[0]=1;
         weight[1]=2;
